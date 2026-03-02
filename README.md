@@ -51,13 +51,10 @@
 
 ## 实物图
 
-![板子.jpg](https://image.lceda.cn/oshwhub/pullImage/24d98f203e414abe88e21a8e521f4cd9.jpg)
+![24d98f203e414abe88e21a8e521f4cd9](https://github.com/user-attachments/assets/5f2b6278-93d6-486e-b4e1-1f897fa669cd)
+![962ec37842c6480d97e2c64c1c45bd49](https://github.com/user-attachments/assets/2ad4c994-43dc-4b80-b904-7ed71ab70da0)
 
-
-![186f0r186f0r186f.jpg](https://image.lceda.cn/oshwhub/pullImage/962ec37842c6480d97e2c64c1c45bd49.jpg)
-
-
-![868119f5a26698f6d7e7f43422820f5a.jpg](https://image.lceda.cn/oshwhub/pullImage/937e9a321e6e4c87880de91943696e25.jpg)
+![937e9a321e6e4c87880de91943696e25](https://github.com/user-attachments/assets/bfae50d4-baa4-4977-ac4c-71652fc10365)
 
 
 
