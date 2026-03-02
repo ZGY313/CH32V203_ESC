@@ -21,25 +21,24 @@
 本项目硬件主要由逻辑控制部分、电源转换部分、三相功率驱动部分及外围接口组成。
 ### 主控与逻辑电路
 每路电调采用一颗独立的 CH32V203C8T6 单片机，负责接收上位机/飞控指令并生成控制电机的 6 路 PWM 信号。预留了 SWD 下载接口与串口引脚，方便后期代码调试。
+![3c57f6f62dcc4c82a108491c84946785](https://github.com/user-attachments/assets/6531c556-f60c-4c42-9bfe-57b8e1a2a192)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/3c57f6f62dcc4c82a108491c84946785.png)
+![6d59491111b54df08f0ecd3c3c39584a](https://github.com/user-attachments/assets/178b321d-e58a-4885-99fd-7fa6be659f4b)
+![36d8cf61e28d4a5caf6e523af4f61ce5](https://github.com/user-attachments/assets/dff16cc9-d7ab-4d1d-a649-90dbcafb7c76)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/6d59491111b54df08f0ecd3c3c39584a.png)
-
-![image.png](https://image.lceda.cn/oshwhub/pullImage/36d8cf61e28d4a5caf6e523af4f61ce5.png)
 ### 三相全桥驱动电路
 驱动部分使用了 FD6288Q。单路电机使用了 6 颗 AON6354 功率管组成三相半桥结构 。大电流走线部分进行了大面积露铜处理，以增加过流能力并辅助散热。
+![9b9ef254e4544d0f981659ca1ca1bb14](https://github.com/user-attachments/assets/5aa18183-88db-4a74-8beb-64828fdd372a)
+![07bc0959f8594272a03d6ed8d7f4074f](https://github.com/user-attachments/assets/67cb8a61-a3c9-44b2-85c6-c69c38ec9be3)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/9b9ef254e4544d0f981659ca1ca1bb14.png)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/07bc0959f8594272a03d6ed8d7f4074f.png)
 ### 电源转换电路
 为了隔离动力电源的干扰，采用 SY8205FCC 方案进行一级降压（12V转5V），再通过 RT9013 LDO 进行二级降压得到 3.3V 供主控使用 。输入端预留了外部大电容的焊接孔，用于吸收电机刹车产生的反动势。
 
+![6b0749b9b25f469186671f6dc47d9128](https://github.com/user-attachments/assets/ecad6a6b-24b9-429e-a840-5d800a1b5197)
+![3582885697484dd4a0bcda6948accd8b](https://github.com/user-attachments/assets/40961b81-02e3-4ca1-ba6c-cdc15ed32bc8)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/6b0749b9b25f469186671f6dc47d9128.png)
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/3582885697484dd4a0bcda6948accd8b.png)
 
 ## 软件代码
 
