@@ -21,8 +21,8 @@
 本项目硬件主要由逻辑控制部分、电源转换部分、三相功率驱动部分及外围接口组成。
 ### 主控与逻辑电路
 每路电调采用一颗独立的 CH32V203C8T6 单片机，负责接收上位机/飞控指令并生成控制电机的 6 路 PWM 信号。预留了 SWD 下载接口与串口引脚，方便后期代码调试。
-![3c57f6f62dcc4c82a108491c84946785](https://github.com/user-attachments/assets/6531c556-f60c-4c42-9bfe-57b8e1a2a192)
 
+![3c57f6f62dcc4c82a108491c84946785](https://github.com/user-attachments/assets/6531c556-f60c-4c42-9bfe-57b8e1a2a192)
 ![6d59491111b54df08f0ecd3c3c39584a](https://github.com/user-attachments/assets/178b321d-e58a-4885-99fd-7fa6be659f4b)
 ![36d8cf61e28d4a5caf6e523af4f61ce5](https://github.com/user-attachments/assets/dff16cc9-d7ab-4d1d-a649-90dbcafb7c76)
 
